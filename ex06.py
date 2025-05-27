@@ -1,4 +1,12 @@
-imc = float(input("Digite seu imc: "))
+
+altura = float(input("Altura(m): "))
+peso = float(input("Pesp (kg): "))
+imc = peso/altura**2
+
+
+
+
+
 if imc <18.6 : print("Abaixo do peso")
 elif imc >=18.6 and imc<=24.9:
     print("Peso Ideal") 
